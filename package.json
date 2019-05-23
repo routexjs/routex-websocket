@@ -1,6 +1,6 @@
 {
   "name": "@routex/websocket",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "WebSockets for Routex",
   "keywords": [
     "websocket",
@@ -78,7 +78,7 @@
     "lint-staged": "^8.1.5",
     "prettier": "^1.16.4",
     "rimraf": "^2.6.3",
-    "routex": "file:../routex",
+    "routex": "^0.0.13",
     "supertest": "^4.0.2",
     "ts-jest": "^24.0.0",
     "ts-node": "^8.0.3",
@@ -87,7 +87,7 @@
     "typescript": "^3.3.3333"
   },
   "peerDependencies": {
-    "routex": "~0.0.12"
+    "routex": "~0.0.13"
   },
   "engines": {
     "node": ">=8.0.0"
