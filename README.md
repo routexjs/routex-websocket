@@ -2,9 +2,9 @@
 
 WebSockets for [Routex](https://www.npmjs.com/package/routex).
 
-Based on [ws](https://www.npmjs.com/package/ws).
+[Documentation](https://routex.netlify.com/docs/packages/websocket) - [GitHub](https://github.com/Cretezy/routex-websocket)
 
-## Usage
+## Example
 
 Install:
 
@@ -38,53 +38,6 @@ app.get(
 
 app.listen(port).then(() => console.log(`Listening on ${port}`));
 ```
-
-### Options
-
-You can pass any [server option from ws](https://github.com/websockets/ws/blob/HEAD/doc/ws.md#new-websocketserveroptions-callback) (except `server`).
-
-```js
-app.appMiddleware(
-  websocket({
-    backlog: 10, // he maximum length of the queue of pending connections
-    perMessageDeflate: true, // Enable/disable permessage-deflate
-    maxPayload: 1024 * 1024 // The maximum allowed message size in bytes
-    // ...
-  })
-);
-```
-
-### Handler
-
-The `socketHandler` accepts a socket handler, which is passed in a [WebSocket](https://github.com/websockets/ws/blob/HEAD/doc/ws.md#class-websocket) and `ctx`.
-
-```js
-app.get(
-  "/:name",
-  websocket.socketHandler((socket, ctx) => {
-    // Send data
-    socket.send(`Hello ${ctx.params.name}!`);
-
-    // Receive data
-    socket.on("message", data => {
-      if (data === "Goodbye!") {
-        // Close socket
-        socket.close();
-        return;
-      }
-
-      socket.send("You said: " + data);
-    });
-  })
-);
-```
-
-The 3rd argument is the WebSocket server (`wss`).
-
-### Note
-
-This package uses the `ctx.data._socketHandler` key, do _not_ override it.
-This can change at any time and should be considered internal.
 
 ## Support
 
