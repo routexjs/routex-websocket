@@ -1,8 +1,8 @@
-# Routex WebSocket [![npm](https://img.shields.io/npm/v/@routex/websocket.svg)](https://www.npmjs.com/package/@routex/websocket) [![Travis CI](https://img.shields.io/travis/com/Cretezy/routex-websocket.svg)](https://travis-ci.com/Cretezy/routex-websocket) [![Codecov](https://img.shields.io/codecov/c/github/Cretezy/routex-websocket.svg)](https://codecov.io/gh/Cretezy/routex-websocket) [![Greenkeeper badge](https://badges.greenkeeper.io/Cretezy/routex-websocket.svg)](https://greenkeeper.io/)
+# Routex WebSocket [![npm](https://img.shields.io/npm/v/@routex/websocket.svg)](https://www.npmjs.com/package/@routex/websocket) [![Travis CI](https://img.shields.io/travis/com/routexjs/routex-websocket.svg)](https://travis-ci.com/routexjs/routex-websocket) [![Codecov](https://img.shields.io/codecov/c/github/routexjs/routex-websocket.svg)](https://codecov.io/gh/routexjs/routex-websocket) [![Greenkeeper badge](https://badges.greenkeeper.io/routexjs/routex-websocket.svg)](https://greenkeeper.io/)
 
 WebSockets for [Routex](https://www.npmjs.com/package/routex).
 
-[Documentation](https://routex.netlify.com/docs/packages/websocket) - [GitHub](https://github.com/Cretezy/routex-websocket)
+[Documentation](https://routex.netlify.com/docs/packages/websocket) - [GitHub](https://github.com/routexjs/routex-websocket)
 
 ## Example
 
@@ -44,4 +44,4 @@ app.listen(port).then(() => console.log(`Listening on ${port}`));
 We support all currently active and maintained [Node LTS versions](https://github.com/nodejs/Release),
 include current Node versions.
 
-Please file feature requests and bugs at the [issue tracker](https://github.com/Cretezy/routex-websocket/issues).
+Please file feature requests and bugs at the [issue tracker](https://github.com/routexjs/routex-websocket/issues).
