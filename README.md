@@ -1,4 +1,4 @@
-# Routex WebSocket [![npm](https://img.shields.io/npm/v/@routex/websocket.svg)](https://www.npmjs.com/package/@routex/websocket) [![Travis CI](https://img.shields.io/travis/com/Cretezy/routex-websocket.svg)](https://travis-ci.com/Cretezy/routex-websocket) [![Codecov](https://img.shields.io/codecov/c/github/Cretezy/routex-websocket.svg)](https://codecov.io/gh/Cretezy/routex-websocket)
+# Routex WebSocket [![npm](https://img.shields.io/npm/v/@routex/websocket.svg)](https://www.npmjs.com/package/@routex/websocket) [![Travis CI](https://img.shields.io/travis/com/Cretezy/routex-websocket.svg)](https://travis-ci.com/Cretezy/routex-websocket) [![Codecov](https://img.shields.io/codecov/c/github/Cretezy/routex-websocket.svg)](https://codecov.io/gh/Cretezy/routex-websocket) [![Greenkeeper badge](https://badges.greenkeeper.io/Cretezy/routex-websocket.svg)](https://greenkeeper.io/)
 
 WebSockets for [Routex](https://www.npmjs.com/package/routex).
 
