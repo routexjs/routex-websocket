@@ -2,7 +2,7 @@
 
 WebSockets for [Routex](https://www.npmjs.com/package/routex).
 
-[Documentation](https://routex.netlify.com/docs/packages/websocket) - [GitHub](https://github.com/routexjs/routex-websocket)
+[Documentation](https://routex.js.org/docs/packages/websocket) - [GitHub](https://github.com/routexjs/routex-websocket)
 
 ## Example
 

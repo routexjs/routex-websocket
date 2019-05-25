@@ -7,7 +7,7 @@
     "websocket",
     "ws"
   ],
-  "homepage": "https://routex.netlify.com/docs/packages/websocket",
+  "homepage": "https://routex.js.org/docs/packages/websocket",
   "repository": {
     "type": "git",
     "url": "https://github.com/routexjs/routex-websocket"
