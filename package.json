@@ -83,7 +83,7 @@
     "rimraf": "^3.0.0",
     "routex": "^0.0.14",
     "supertest": "^4.0.2",
-    "ts-jest": "^24.0.0",
+    "ts-jest": "^25.1.0",
     "ts-node": "^8.0.3",
     "tslint": "^5.14.0",
     "tslint-config-prettier": "^1.18.0",
