@@ -4,7 +4,7 @@ import * as ws from "ws";
 
 type SocketHandler = (socket: ws, ctx: ICtx) => void;
 
-export default function(options?: ws.ServerOptions): AppMiddleware {
+export default function (options?: ws.ServerOptions): AppMiddleware {
   return (routex: Routex) => ({
     initializeServer: (server: http.Server) => {
       const wss = new ws.Server({ ...options, server });
@@ -33,7 +33,7 @@ export default function(options?: ws.ServerOptions): AppMiddleware {
         // Call socket handler
         handler(socket, ctx, wss);
       });
-    }
+    },
   });
 }
 

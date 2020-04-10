@@ -28,9 +28,9 @@ app.appMiddleware(websocket());
 // Must be a GET request.
 app.get(
   "/",
-  websocket.socketHandler(socket => {
+  websocket.socketHandler((socket) => {
     // Echo server
-    socket.on("message", data => {
+    socket.on("message", (data) => {
       socket.send("You said: " + data);
     });
   })

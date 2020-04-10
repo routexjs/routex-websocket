@@ -1,3 +1,11 @@
+## 0.1.0 - 2020-04-10
+
+- Graduate to beta
+- Upgrade development environment
+  - Switch to ESLint
+  - Upgrade dependencies
+  - Drop Node 8 support, add Node 12 support
+
 ## 0.0.6 - 2019-05-25
 
 - Move org & docs

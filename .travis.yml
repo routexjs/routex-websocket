@@ -6,8 +6,8 @@ notifications:
 
 node_js:
   - "node"
+  - "12"
   - "10"
-  - "8"
 
 script:
   - yarn build
