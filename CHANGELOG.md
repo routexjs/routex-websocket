@@ -1,6 +1,7 @@
 ## Unreleased
 
 - Require Node 10
+- Upgrade development environment
 
 ## 0.1.0 - 2020-04-10
 
